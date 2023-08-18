@@ -304,6 +304,9 @@ main h1 {
 }
 
 /* Articles */
+.articles {
+    border-top: thin solid var(--hr-color);
+}
 
 .post-header {
     margin-top: 1em;
@@ -363,6 +366,10 @@ main h1 {
 article:not(:last-of-type) {
     border-bottom: thin solid var(--hr-color);
     padding-bottom: 2em;
+}
+
+article {
+    padding-left: 10px;
 }
 
 article header h1 {
